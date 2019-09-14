@@ -1,0 +1,16 @@
+h1{
+ color: blue;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;    
+
+}
+.box{
+    background-image: url(http://7-themes.com/data_images/out/13/6813061-teal-wallpaper.jpg);
+   padding: 100px;
+   margin: 100px;
+    
+}
+
