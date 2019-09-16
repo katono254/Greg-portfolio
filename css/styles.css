@@ -1,16 +1,109 @@
-h1{
- color: blue;
-}
-body{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;    
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 
 }
-.box{
-    background-image: url(http://7-themes.com/data_images/out/13/6813061-teal-wallpaper.jpg);
-   padding: 100px;
-   margin: 100px;
+header{
+    background-image: url(../bootleg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+ul{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 70px;
+    border: 3px solid #ffffff;
+    margin: 0%;
     
 }
+#Logo{
+    float: left;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    height: 30%;
+    font-style: oblique;
+    
+}
+.Home-section{
+    text-align: center;
+
+}
+.Home-section img{
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    margin-top: 20px;
+    
+}
+.name{
+    cursor: pointer;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.About-section h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-decoration: underline;
+
+}
+.About-section p{
+    font-size: 30px;
+    font-family: roboto;
+    width: 1000px;
+    text-align: center;
+
+}
+.Accomplishments-section{
+    font-size: 30px;
+    font-family: roboto;
+    width: 1000px;
+    text-align: center;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+    
+.contact-section span{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+    
+    
+
+  
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
 
